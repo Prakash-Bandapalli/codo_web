@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+    color:rgb(234, 243, 236);
+    font-family: Poppins;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:40px;
+    background-color: rgb(145, 80, 202);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white
+}
+nav ul li a:hover{
+    color:aqua;
+    font-size: 1.01rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+
+    font-size: 2rem;
+}
+.rightsection img{
+    width: 85%;
+    border-radius: 50%;
+    
+}
+.special{
+    color: #84f01e;
+}
+#element{
+    color:#84f01e;
+    
+}
+/*login*/
+.login-form {
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Codeoholics Club
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">About the Club</a></li>
+                    <li><a href="">Members</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Tickets</a></li>
+                    <li><a href="#" id="loginLink">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Introducing you the <span class="special">Codeoholics Club.</span>
+                <div>Where you can hone your skills in</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="assests/logo.jpeg" alt="">
+            </div>
+        </section>
+    </main>
+    <section class="login-form" id="loginForm" style="display: none;">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <input type="submit" value="Login">
+        </form>
+    </section>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Communication skills','Time management','Programming'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
